@@ -35,7 +35,7 @@ if marks > 60:
   print("your percentage is:" , percentage, "%" ) 
 
 
- # Write a program to show mark and 
+# Write a program to show mark and 
 # say  failed if marks are below 45.
 marks = float(input("enter your masks:"))
 if marks < 45:
@@ -43,6 +43,5 @@ if marks < 45:
   percentage = marks/100*100
   print("your percentage is:" , percentage, "%" ) 
 
-
-     
+print("program end") 
 
