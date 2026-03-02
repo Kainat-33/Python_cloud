@@ -47,3 +47,43 @@ print("program end")
 
 
 
+#if
+#ifelse
+#ifelif(repeat acording to your choice)else
+
+
+
+#check the number is positive, negitive or zero
+number = int(input("enter your number"))
+
+if number > 0:
+    print("number is positive")
+elif number < 0:
+    print("number is negitive")
+else:
+    print("number is zero")
+
+
+# print day according to its number lets say monday number is 1 and so on.
+day_number = int(input("enter your number"))
+if day_number == 1:
+    print("the day is Monday")
+elif day_number == 2:
+        print("the day is tuesday")
+elif day_number == 3:
+      print("the day is wednesday")
+
+elif day_number == 4:
+      print("the day is thursday")
+
+elif day_number == 5:
+      print("the day is friday")
+
+elif day_number == 6:
+      print("the day is saturday")
+
+elif day_number == 7:
+      print("the day is sunday")                                
+else:
+      print("Sorry invalid choice within 1-7") 
+           
