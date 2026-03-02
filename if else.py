@@ -43,7 +43,7 @@ else:
 
 level = int(input("enter level of water"))
 
-if >50:
+if level > 50:
     print("level of water is high")
 else:
     print("level of water is low")    
