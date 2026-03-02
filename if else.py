@@ -1,16 +1,16 @@
-#age = float (input("enter your age"))
+age = float(input("enter your age"))
 
-#if Age >= 18:
- #   print("welcome you're able to proceed your ID card")
+if age >= 18:
+   print("welcome you're able to proceed your ID card")
 
 
-#marks = float(input("enter your marks"))
+marks = float(input("enter your marks"))
 
-#if marks >= 60:
- #   print("Congragulation you're passed")
-#else:
-#    print("Sorry you're failed, try again")
-    
+if marks > 40:
+    print("Congragulation you're passed")
+else:
+       print("Sorry you're failed, try again")  
+
 
 # check whether the number is positive or negitive
 
@@ -38,6 +38,7 @@ if num1 > num2:
     print("First number is greater")
 else:
     print("Second number is greater")
+
 
 #check level of water is high or low
 
